@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -140,21 +140,6 @@ namespace Assignment1_Summer2021
 
         }
 
-
-        /*
-
-        <summary>
-        Given an array of integers nums
-        A pair (i,j) is called good if nums[i] == nums[j] and i < j.
-        Return the number of good pairs.
-        Example:
-        Input: nums = [1,2,3,1,1,3]
-        Output: 4
-        Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
-        return type : int
-        </summary>
-        <returns>int </returns>
-        */
 
         private static int NumIdenticalPairs(int[] arr)
 
